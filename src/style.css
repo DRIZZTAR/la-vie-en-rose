@@ -1,0 +1,47 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+html,
+body {
+	overflow: hidden;
+	height: 100%;
+	width: 100%;
+}
+
+canvas {
+	background: linear-gradient(330deg, #f89a9a 0%, #000000 40%, #000000 100%);
+
+	display: block;
+}
+
+.webgl {
+	position: fixed;
+	top: 0;
+	left: 0;
+	outline: none;
+}
+
+h1.leftText,
+h1.rightText {
+	position: absolute;
+	top: 50%;
+	transform: translate(-50%, -50%);
+	z-index: 1;
+	font-family: 'Josefin Sans', Arial, sans-serif;
+}
+
+h1.leftText {
+	left: 35%;
+	color: rgba(245, 224, 242, 0.918);
+}
+
+h1.rightText {
+	left: 65%;
+	color: rgba(245, 224, 242, 0.918);
+}
+
+span {
+    color: hsl(348, 25%, 53%);
+}
